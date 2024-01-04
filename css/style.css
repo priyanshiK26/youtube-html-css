@@ -115,16 +115,18 @@ img {
   display: flex;
   flex-direction: column;
 }
+.videos .menu{
+  display: flex;
+  flex-direction: column;
+}
 .videos{
   margin-top: 20px;
 } 
 .sidemenu{
   color: white;
 }
+
 .menu i{
   color: white;
-}
-.menu{
-  display: flex;
-  flex-direction: column;
+  margin: 30px;
 }
