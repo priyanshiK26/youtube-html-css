@@ -11,7 +11,9 @@ body {
 i {
   color: white;
   background-color: black;
-  font-size: 20px;
+}
+.profile i {
+  color: purple;
 }
 .primary i {
   color: red;
@@ -29,7 +31,8 @@ p {
 }
 .search-bar {
   display: flex;
-  border-radius: 15px;
+  border: black solid 1px;
+  border-radius: 25px;
 }
 .btn {
   background-color: black;
@@ -38,6 +41,9 @@ p {
 .search-bar input {
   background: transparent;
   border-radius: 15px;
+  border: grey 1px solid;
+  width: 325px;
+  padding: 2px;
 }
 .voice {
   margin-left: 12px;
