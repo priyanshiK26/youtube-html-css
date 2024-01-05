@@ -5,66 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/new.css">
 
     <title>youtube</title>
 
 </head>
 
 <body>
-    <header class="nav">
-        <div id="navbar" class="navbar">
-            <h1 class="logo">
-                <div class="sidebar"><i class="fa-solid fa-bars"></i></div>
-                <span class="primary"><i class="fa-brands fa-youtube"></i></span> YouTube
-            </h1>
-            <div class="search">
-                <button class="btn" input type="submit">Search
-                    <i class="fa-solid fa-magnifying-glass"></i></button>
+    <header>
+        <div class="navbar">
+            <div class="logo-container">
+                <h1 class="logo">
+                    <i class="fa-solid fa-bars"></i>
+                    <span class="primary"><i class="fa-brands fa-youtube"></i></span> YouTube
+                </h1>
+            </div>
+            <div class="search-container">
+                <form action="" class="search-bar">
+                    <input type="text" placeholder="search">
+                    <button type="submit" class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
                 <span class="voice"><i class="fa-solid fa-microphone"></i></span>
             </div>
-            <div class="icons">
-                <i class="fa-solid fa-video"></i>
-                <i class="fa-regular fa-bell"></i>
-                <span class="profile"><i class="fa-brands fa-product-hunt"></i></span>
+            <div class="profile-container">
+                <div class="icons">
+                    <i class="fa-solid fa-video"></i>
+                    <i class="fa-regular fa-bell"></i>
+                    <span class="profile"><i class="fa-brands fa-product-hunt"></i></span>
+                </div>
             </div>
         </div>
     </header>
 
-    <section class="suggestion">
-        <a href="#">All</a>
-        <a href="#">Music</a>
-        <a href="#">Colleges</a>
-        <a href="#">Live</a>
-        <a href="#">Shopping</a>
-        <a href="#">Programming</a>
-        <a href="#">Podcasts</a>
-        <a href="#">News</a>
-        <a href="#">Mikky</a>
-        <a href="#">coding entity</a>
-        <a href="#">Mikku</a>
-        <a href="#">Mikku</a>
-        <i class="fa-solid fa-chevron-right"></i>
+    <section class="sidebar">
+        <div class="menu">
+            <div class="col">
+                <a href="#"><i class="fa-solid fa-house"></i></a>
+                <p>Home</p>
+            </div>
+            <div class="col">
+                <a href="#"><i class="fa-solid fa-play"></i></a>
+                <p>shorts</p>
+            </div>
+            <div class="col">
+                <a href="#"><i class="fa-solid fa-money-bill-wheat"></i></a>
+                <p>subscriptions</p>
+            </div>
+            <div class="col">
+                <a href="#"><i class="fa-solid fa-music"></i></a>
+                <p>YouTube Music</p>
+            </div>
+            <div class="col">
+                <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                <p>You</p>
+            </div>
+            <div class="col">
+                <a href="#"><i class="fa-solid fa-download"></i></a>
+                <p>Downloads</p>
+            </div>
+        </div>
     </section>
 
+    <section>
+        <div class="suggestion">
+            <a href="#">All</a>
+            <a href="#">Music</a>
+            <a href="#">Shopping</a>
+            <a href="#">Programming</a>
+            <a href="#">Podcasts</a>
+            <a href="#">News</a>
+            <a href="#">coding entity</a>
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+    </section>
+
+
     <section class="videos">
-       
         <div class="row">
-            <div class="menu">
-                <a href="#"><i class="fa-solid fa-house"></i></a>
-                <a href="#"><i class="fa-solid fa-play"></i></a>
-                <a href="#"><i class="fa-solid fa-money-bill-wheat"></i></a>
-                <a href="#"><i class="fa-solid fa-music"></i></a>
-                <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
-                <a href="#"><i class="fa-solid fa-download"></i></a>
-            </div>
             <div class="column">
                 <img src="utilities/images/image1.jpeg" alt="">
                 <p><i class="fa-regular fa-circle-user"></i> Lorem, ipsum dolor.<br>
                     <span class="size">Lorem, ipsum.<i class="fa-solid fa-circle-check"></i><br>
                         4 views 20 minutes ago
                 </p></span>
-                
+
             </div>
             <div class="column">
                 <img src="utilities/images/image2.jpeg" alt="">
@@ -117,6 +141,7 @@
             </div>
         </div>
     </section>
+
 </body>
 
 </html>
